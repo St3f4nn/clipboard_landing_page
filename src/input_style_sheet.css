@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    .header-btn-container-btn-cta {
+        @apply text-white py-5 px-12 sm:px-20 md:px-8 rounded-full font-semibold transition-all hover:opacity-70 text-base md:text-lg;
+    }
+}
