@@ -534,6 +534,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
+.section {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 10rem;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
 *, ::before, ::after {
   --tw-translate-x: 0;
   --tw-translate-y: 0;
@@ -589,6 +602,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-20 {
   margin-top: 5rem;
+}
+
+.mt-28 {
+  margin-top: 7rem;
 }
 
 .flex {
@@ -681,6 +698,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 600;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .text-fourd5760 {
   --tw-text-opacity: 1;
   color: rgb(77 87 96 / var(--tw-text-opacity));
@@ -710,12 +731,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 1.25rem;
   }
 
-  .md\:block {
-    display: block;
+  .md\:mt-28 {
+    margin-top: 7rem;
   }
 
-  .md\:hidden {
-    display: none;
+  .md\:block {
+    display: block;
   }
 
   .md\:w-1\/2 {
@@ -743,6 +764,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .md\:lowercase {
+    text-transform: lowercase;
   }
 }
 

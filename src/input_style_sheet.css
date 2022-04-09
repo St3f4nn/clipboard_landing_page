@@ -18,4 +18,7 @@
     .section-a-flex-container-features-feature-text {
         @apply mt-6 text-base md:mt-4 md:leading-loose xl:mt-6 text-a4a8ab;
     }
+    .section {
+        @apply px-8 pt-40 md:px-0;
+    }
 }
