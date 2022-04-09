@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-    .header-btn-container-btn-cta {
+    .header-btn-container-btn-cta, .section-d-btn-container-btn-cta {
         @apply px-12 py-5 text-base font-semibold text-white transition-all rounded-full sm:px-20 md:px-8 hover:opacity-70 md:text-lg;
     }
     .section-heading {

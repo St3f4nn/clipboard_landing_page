@@ -423,7 +423,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-.header-btn-container-btn-cta {
+.header-btn-container-btn-cta, .section-d-btn-container-btn-cta {
   border-radius: 9999px;
   padding-left: 3rem;
   padding-right: 3rem;
@@ -439,24 +439,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-duration: 150ms;
 }
 
-.header-btn-container-btn-cta:hover {
+.header-btn-container-btn-cta:hover, .section-d-btn-container-btn-cta:hover {
   opacity: 0.7;
 }
 
 @media (min-width: 375px) {
-  .header-btn-container-btn-cta {
+  .header-btn-container-btn-cta, .section-d-btn-container-btn-cta {
     padding-left: 5rem;
     padding-right: 5rem;
   }
 }
 
 @media (min-width: 768px) {
-  .header-btn-container-btn-cta {
+  .header-btn-container-btn-cta, .section-d-btn-container-btn-cta {
     padding-left: 2rem;
     padding-right: 2rem;
   }
 
-  .header-btn-container-btn-cta {
+  .header-btn-container-btn-cta, .section-d-btn-container-btn-cta {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
@@ -623,10 +623,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 2rem;
 }
 
-.mt-44 {
-  margin-top: 11rem;
-}
-
 .mt-32 {
   margin-top: 8rem;
 }
@@ -659,16 +655,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: center;
 }
 
-.gap-11 {
-  gap: 2.75rem;
-}
-
 .gap-16 {
   gap: 4rem;
-}
-
-.gap-24 {
-  gap: 6rem;
 }
 
 .bg-two6bba5 {
@@ -681,14 +669,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(97 116 255 / var(--tw-bg-opacity));
 }
 
-.bg-blue-700 {
+.bg-green-600 {
   --tw-bg-opacity: 1;
-  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
-}
-
-.bg-green-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-t {
@@ -715,6 +698,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.py-40 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 .pt-32 {
