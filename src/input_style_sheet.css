@@ -4,6 +4,18 @@
 
 @layer base {
     .header-btn-container-btn-cta {
-        @apply text-white py-5 px-12 sm:px-20 md:px-8 rounded-full font-semibold transition-all hover:opacity-70 text-base md:text-lg;
+        @apply px-12 py-5 text-base font-semibold text-white transition-all rounded-full sm:px-20 md:px-8 hover:opacity-70 md:text-lg;
+    }
+    .section-heading {
+        @apply text-2xl font-semibold text-center md:text-4xl text-fourd5760;
+    }
+    .section-heading-text {
+        @apply mt-8 text-base font-normal text-center text-a4a8ab md:text-lg;
+    }
+    .section-a-flex-container-features-feature-heading {
+        @apply text-xl font-semibold md:text-3xl text-fourd5760;
+    }
+    .section-a-flex-container-features-feature-text {
+        @apply mt-6 text-base md:mt-4 md:leading-loose xl:mt-6 text-a4a8ab;
     }
 }
