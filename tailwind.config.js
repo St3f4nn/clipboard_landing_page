@@ -16,7 +16,8 @@ module.exports = {
         fourd5760: '#4d5760',
         a4a8ab: '#a4a8ab',
         two6bba5: '#26bba5',
-        six174ff: '#6174ff'
+        six174ff: '#6174ff',
+        f5f6f8: '#f5f6f8'
       },
       fontFamily: {
         baiJamjuree: "'Bai Jamjuree', sans-serif"
