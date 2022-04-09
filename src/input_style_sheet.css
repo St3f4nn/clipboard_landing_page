@@ -12,13 +12,19 @@
     .section-heading-text {
         @apply mt-8 text-base font-normal text-center text-a4a8ab md:text-lg;
     }
-    .section-a-flex-container-features-feature-heading {
+    .section-a-flex-container-features-feature-heading, .section-c-flex-container-step-heading {
         @apply text-xl font-semibold md:text-3xl text-fourd5760;
     }
-    .section-a-flex-container-features-feature-text {
+    .section-a-flex-container-features-feature-text, .section-c-flex-container-step-text {
         @apply mt-6 text-base md:mt-4 md:leading-loose xl:mt-6 text-a4a8ab;
     }
     .section {
-        @apply px-8 pt-40 md:px-0;
+        @apply px-8 md:px-0;
+    }
+    .section-c-flex-container-step {
+        @apply flex flex-col items-center text-center;
+    }
+    .section-c-flex-container-step-img {
+        @apply w-11 h-11;
     }
 }

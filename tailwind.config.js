@@ -20,6 +20,10 @@ module.exports = {
       },
       fontFamily: {
         baiJamjuree: "'Bai Jamjuree', sans-serif"
+      },
+      boxShadow: {
+        'cta-shadow-green': '0 5px 20px rgba(38, 187, 165, 0.4)',
+        'cta-shadow-violet': '0 5px 20px rgba(97, 116, 255, 0.4)'
       }
     },
   },
